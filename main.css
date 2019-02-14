@@ -17,8 +17,7 @@ table {
 }
 
 p {
-  margin-block-start: 0;
-  margin-block-end: 0;
+  line-height: 0;
   color: blue;
 }
 
