@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!--- 
+  Fait par Geneviève Ouellette et Bashir Alla
+  Dernière modification le 15 février 2019 10:20. -->
 <html>
   <head>
     <meta charset="utf-8" />
@@ -8,14 +11,14 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   </head>
   <body>
-    <table align="center">
+    <table class="period" align="center">
       <thead>
         <caption>
           Premières lignes du tableau
         </caption>
       </thead>
       <tbody>
-        <tr>
+        <tr class="numbers_first_line">
           <td id="coin"></td>
           <th>1</th>
           <th>2</th>
@@ -36,103 +39,200 @@
           <th>17</th>
           <th>18</th>
         </tr>
-        <tr>
+        <tr class="numbers_first_column">
           <th>1</th>
-          <td>
+          <td class="NonMtl">
             1
             <p title="Hydrogène">H</p>
           </td>
           <td colspan="16"></td>
-          
-          <td>2
-            <p title="Hélium">He</td>
 
+          <td class="GazNob">
+            2
+            <p title="Hélium">He</p>
+          </td>
         </tr>
-        <tr>
+        <tr class="numbers_first_column">
           <th>2</th>
-          <td>3
-          <p title = "Lithium">Li</p></td>
-          <td>4
-            <p title="Béryllum">Be</p></td>
+          <td class="MetAlc">
+            3
+            <p title="Lithium">Li</p>
+          </td>
+          <td class="MetAlcTer">
+            4
+            <p title="Béryllum">Be</p>
+          </td>
           <td colspan="10"></td>
-          <td>5
-            <p title="Bore">B</p></td>
-          <td>6
-            <p title="Carbone">C</td>
-          <td>7
-            <p title="Azote">N</td>
-          <td>8
-            <p title="Oxygène">O</td>
-          <td>9
-            <p title="Fluor">F</td>
-          <td>10
-            <p title="Néon">Ne</td>
+          <td class="Mtlides">
+            5
+            <p title="Bore">B</p>
+          </td>
+          <td class="NonMtl">
+            6
+            <p title="Carbone">C</p>
+          </td>
+
+          <td class="NonMtl">
+            7
+            <p title="Azote">N</p>
+          </td>
+
+          <td class="NonMtl">
+            8
+            <p title="Oxygène">O</p>
+          </td>
+
+          <td class="Halo">
+            9
+            <p title="Fluor">F</p>
+          </td>
+
+          <td class="GazNob">
+            10
+            <p title="Néon">Ne</p>
+          </td>
         </tr>
-        <tr>
+        <tr class="numbers_first_column">
           <th>3</th>
-          <td>11
-            <p title="Sodium">Na</td>
-          <td>12
-            <p title="Magnésium">Mg</td>
+          <td class="MetAlc">
+            11
+            <p title="Sodium">Na</p>
+          </td>
+
+          <td class="MetAlcTer">
+            12
+            <p title="Magnésium">Mg</p>
+          </td>
+
           <td colspan="10"></td>
-          <td>13
-            <p title="Aluminium">Al</td>
-          <td>14
-            <p title="Silicium">Si</td>
-          <td>15
-            <p title="Phosphore">P</td>
-          <td>16
-            <p title="Soufre">S</td>
-          <td>17
-            <p title="Chlore">Cl</td>
-          <td>18
-            <p title="Argon">Ar</td>
+          <td class="MetPauv">
+            13
+            <p title="Aluminium">Al</p>
+          </td>
+
+          <td class="Mtlides">
+            14
+            <p title="Silicium">Si</p>
+          </td>
+
+          <td class="NonMtl">
+            15
+            <p title="Phosphore">P</p>
+          </td>
+
+          <td class="NonMtl">
+            16
+            <p title="Soufre">S</p>
+          </td>
+
+          <td class="Halo">
+            17
+            <p title="Chlore">Cl</p>
+          </td>
+
+          <td class="GazNob">
+            18
+            <p title="Argon">Ar</p>
+          </td>
         </tr>
-        <tr>
+        <tr class="numbers_first_column">
           <th>4</th>
-          <td>19
-            <p title="Potassium">K</td>
-          <td>20
-            <p title="Calcium"> Ca</td>
-          <td>21
-            <p title="Scandium">Sc</td>
-          <td>22
-            <p title="Titane">Ti</td>
-          <td>23
-            <p title="Vanadium">V</td>
-          <td>24
-            <p title="Chrome">Cr</td>
-          <td>25
-            <p title="Manganèse">Mn</td>
-          <td>26
-            <p title="Fer">Fe</td>
-          <td>27
-            <p title="Cobalt">Co</td>
-          <td>28
-            <p title="Nickel">Ni</td>
-          <td>29
-            <p title="Cuivre">Cu</td>
-          <td>30
-            <p title="Zinc">Zn</td>
-          <td>31
-            <p title="Gallium">Ga</td>
-          <td>32
-            <p title="Germanium">Ge</td>
-          <td>33
-            <p title="Arsenic">As</td>
-          <td>34
-            <p title="Sélénium">Se</td>
-          <td>35
-            <p title="Brome">Br</td>
-          <td>36
-            <p title="Krypton">Kr</td>
+          <td class="MetAlc">
+            19
+            <p title="Potassium">K</p>
+          </td>
+
+          <td class="MetAlcTer">
+            20
+            <p title="Calcium">Ca</p>
+          </td>
+
+          <td class="MetTrans">
+            21
+            <p title="Scandium">Sc</p>
+          </td>
+
+          <td class="MetTrans">
+            22
+            <p title="Titane">Ti</p>
+          </td>
+
+          <td class="MetTrans">
+            23
+            <p title="Vanadium">V</p>
+          </td>
+
+          <td class="MetTrans">
+            24
+            <p title="Chrome">Cr</p>
+          </td>
+
+          <td class="MetTrans">
+            25
+            <p title="Manganèse">Mn</p>
+          </td>
+
+          <td class="MetTrans">
+            26
+            <p title="Fer">Fe</p>
+          </td>
+
+          <td class="MetTrans">
+            27
+            <p title="Cobalt">Co</p>
+          </td>
+
+          <td class="MetTrans">
+            28
+            <p title="Nickel">Ni</p>
+          </td>
+
+          <td class="MetTrans">
+            29
+            <p title="Cuivre">Cu</p>
+          </td>
+
+          <td class="MetTrans">
+            30
+            <p title="Zinc">Zn</p>
+          </td>
+
+          <td class="MetPauv">
+            31
+            <p title="Gallium">Ga</p>
+          </td>
+
+          <td class="Mtlides">
+            32
+            <p title="Germanium">Ge</p>
+          </td>
+
+          <td class="Mtlides">
+            33
+            <p title="Arsenic">As</p>
+          </td>
+
+          <td class="NonMtl">
+            34
+            <p title="Sélénium">Se</p>
+          </td>
+
+          <td class="Halo">
+            35
+            <p title="Brome">Br</p>
+          </td>
+
+          <td class="GazNob">
+            36
+            <p title="Krypton">Kr</p>
+          </td>
         </tr>
       </tbody>
     </table>
 
     <br />
     <br />
-    <table class="categories" width="50%" align="center">
+    <table class="categories" align="center">
       <tbody>
         <tr>
           <td class="Mtlides">Métalloïdes</td>
@@ -148,5 +248,14 @@
         </tr>
       </tbody>
     </table>
+    <footer>
+      <p>
+        D'après
+        <a
+          href="https://fr.wikipedia.org/wiki/Tableau_p%C3%A9riodique_des_%C3%A9l%C3%A9ments"
+          >la présentation de Wikipédia</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
